@@ -1,0 +1,41 @@
+.player-webradio {
+  display: inline-flex;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: #0c0c0c;
+  width: 100%;
+  color: #ef7bb1;
+  vertical-align: middle;
+  text-align: center;
+
+  .thumbnail {
+    max-width: 5%;
+    width: 5%;
+  }
+
+  span {
+    margin-left: 2%;
+    width: 15%;
+  }
+
+  .play-pause {
+    width: 40%;
+  }
+
+  button .Volume {
+    width: 10%;
+  }
+
+  .volume-slider {
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+
+    label .volume-slider-label {
+      text-align: right;
+    }
+  }
+}

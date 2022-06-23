@@ -1,0 +1,18 @@
+<p>The idea is to have a bar taking the whole page, with a design like so:</p>
+<div class="player-webradio">
+  <img class="thumbnail thumbnail-radio" src="#" alt="thumbnail-radio" />
+  <img class="thumbnail thumbnail-song" src="#" alt="thumbnail-song-playing" />
+  <span>Listening to {{song}} on {{radio}}</span>
+  <img class="play-pause" src="#" alt="play-pause button" />
+  <button class="Volume" type="button">Volume (mute)</button>
+  <div class="volume-slider">
+    <label for="webradioVolumeRange" class="volume-slider-label">Volume slider</label>
+    <span class="a-range-slider js-range-slider">
+      <span class="a-range-slider__wrapper">
+        <input class="a-range-slider__input js-range-slider__input" id="webradioVolumeRange" max="100" name="webradioVolumeRange" type="range" value="50">
+        <span class="a-range-slider__progress js-range-slider__progress" style="width: 50%;">
+        </span>
+      </span>
+    </span>
+  </div>
+</div>
